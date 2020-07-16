@@ -1,6 +1,6 @@
 public class empWageComputation
-{
-         //Constants
+    {
+        //Constants
         public static final int IS_FULL_TIME=1;
         public static final int IS_PART_TIME=2;
         public static final int EMP_RATE_PER_HOUR=20;
@@ -40,7 +40,7 @@ public class empWageComputation
                             System.out.println(" Employee Wage "+empWage);
                             System.out.println(totalWorkingDays+ " "+empHrs);
                         }
-                   //System.out.println(" Total Employee Wage "+totalEmpWage);
+                   
                    totalEmpWage=totalEmpHrs*empRate;
                    System.out.println(" Total Employee Wage of Comapny is "+company+" " +totalEmpWage);
                 }
